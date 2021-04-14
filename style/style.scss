@@ -125,7 +125,7 @@ $root: '.c-rainbow';
     
       4px 4px 0 rgba(0, 0, 0, .2);
    
-   animation: rainbow 2s 1s ease-in-out infinite;
+   animation: rainbow 1.5s 1s ease-in-out infinite;
    
    @for $i from 1 through 7 {
     &:nth-child(#{$i}) {
