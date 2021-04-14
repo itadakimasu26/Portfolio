@@ -76,6 +76,7 @@
 
 /* simple */
 .simple {
+  cursor: pointer;
   left: 0;
   background-color: white;
   border: 1px solid black;
@@ -89,9 +90,16 @@
 
 /* animated */
 .animated {
+  cursor: pointer;
   right: 0;
   border: 1px solid black;
   display: none;
+}
+
+.animated:hover {
+  background-color: #44A3F7;
+  -webkit-transition: 2s;
+  transition: 2s;
 }
 
 .animate {
