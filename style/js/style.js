@@ -6,4 +6,8 @@ $(document).ready(function () {
     $("#animated").addClass("animate");
     $(".animated").fadeIn("slow");
   });
+  $("#simple").click(function () {
+    $(".artisticCV").css({"margin" : '0'});
+    $(".artisticCV").addClass("animate");
+  });
 });
