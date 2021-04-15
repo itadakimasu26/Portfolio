@@ -7,7 +7,11 @@ $(document).ready(function () {
     $(".animated").fadeIn("slow");
   });
   $("#simple").click(function () {
-    $(".artisticCV").css({"margin" : '0'});
-    $(".artisticCV").addClass("animate");
+    $(".CV").css({"margin" : '0'});
+    $(".simpleCV").addClass("animate");
+  });
+  $("#animated").click(function () {
+    $(".animatedCV").css({"margin" : '0'});
+    $(".animatedCV").addClass("animate");
   });
 });
